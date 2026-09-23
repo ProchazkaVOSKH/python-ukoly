@@ -4,4 +4,4 @@ Zde se průběžně objevují výstupy z praktických cvičení z předmětu PRG
 
 Autor: Ing. Martin Procházka
 
-Vzdělávací materiály: [https://edu.voskh.cz/course/view.php?id=695]([url](https://edu.voskh.cz/course/view.php?id=695))
+Vzdělávací materiály: ([https://edu.voskh.cz/course/view.php?id=695](https://edu.voskh.cz/course/view.php?id=695))
