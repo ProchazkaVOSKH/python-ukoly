@@ -1,3 +1,4 @@
+# příklad Vizitka (input, print)
 jmeno=input("Zadej své jméno: ")
 print("")
 print("--------------------")
