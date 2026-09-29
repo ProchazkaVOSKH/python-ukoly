@@ -1,15 +1,16 @@
+# ********************************
 # Kalkulačka spropitného
+# 29.9.2026
+# ********************************
+
 print("Vítejte v kalkulačce spropitného!")
+celkova_castka = float(input("Zadej celkovou částku účtu: "))
+spropitne = int(input("Zadej spropitné v %: "))
+pocet_lidi = int(input("Zadej počet lidí u stolu: "))
 
-# vstup
-ucet = float(input("Zadej celkovou částku účtu: "))
-procento_spropitneho = int(input("Zadej výši spropitného v procentech: "))
-pocet_lidi = int(input("Zadej počet lidí: "))
+spropitne_Kc = celkova_castka * spropitne / 100
+celkova_castka += spropitne_Kc  # složené přiřazení
+# celkova_castka = celkova_castka + spropitne_Kc
+zaplacena_castka = round(celkova_castka / pocet_lidi, 2)
 
-# výpočet
-spropitne = ucet * procento_spropitneho / 100   # výpočet spropitného
-celkova_suma = ucet + spropitne                 # výpočet celkové částky k zaplacení
-podil = round(celkova_suma / pocet_lidi, 2)     # zaokrouhlení na 2 desetinná místa
-
-# výstup
-print(f"Každý člověk by měl zaplatit: {podil} Kč")
+print(f"Zaplatíš 1/{pocet_lidi} z {celkova_castka} Kč ({zaplacena_castka} Kč)")
